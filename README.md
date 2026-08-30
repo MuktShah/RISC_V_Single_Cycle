@@ -34,28 +34,30 @@ A modular **32-bit single-cycle RISC-V processor** implemented in Verilog HDL, s
 RISC_V_Single_Cycle/
 │
 ├── architecture/
-│   └── RV32I.png                # Processor microarchitecture
+│   └── RV32I.png
 │
 ├── rtl/
-│   ├── processor.v              # Top-level processor datapath
-│   ├── PC.v                     # Program counter register
-│   ├── PC_adder.v               # PC + 4 computation
-│   ├── instruction_mem.v        # Instruction memory
-│   ├── register_file.v          # 32 × 32-bit register file
-│   ├── imm_gen.v                # Immediate generator
-│   ├── main_control_unit.v      # Opcode decoder and main control
-│   ├── ALU_control_unit.v       # ALU operation decoder
-│   ├── ALU.v                    # Arithmetic Logic Unit
-│   ├── data_memory.v            # Load/store data memory
-│   ├── data.mem                 # Data memory initialization
-│   ├── adder.v                  # Generic 32-bit adder
-│   ├── mux.v                    # 2-to-1 multiplexer
-│   └── mux4to1.v                # 4-to-1 multiplexer
+│   ├── ALU.v
+│   ├── ALU_control_unit.v
+│   ├── PC.v
+│   ├── PC_adder.v
+│   ├── adder.v
+│   ├── data.mem
+│   ├── data_memory.v
+│   ├── imm_gen.v
+│   ├── instruction_mem.v
+│   ├── main_control_unit.v
+│   ├── mux.v
+│   ├── mux4to1.v
+│   ├── processor.v
+│   └── register_file.v
+│
+├── simulation/
+│   └── tb_processor.v
 │
 ├── waveform/
-│   └── waveform_bubble_sort.png # Simulation waveform
+│   └── waveform_bubble_sort.png
 │
-├── tb_processor.v               # Processor testbench
 ├── LICENSE
 └── README.md
 ```
