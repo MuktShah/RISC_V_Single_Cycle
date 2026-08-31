@@ -34,7 +34,8 @@ A modular **32-bit single-cycle RISC-V processor** implemented in Verilog HDL, s
 RISC_V_Single_Cycle/
 │
 ├── architecture/
-│   └── RV32I.png
+│   ├── RV32I.png
+│   └── RV32I_Full.jpeg
 │
 ├── rtl/
 │   ├── ALU.v
