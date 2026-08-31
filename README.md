@@ -51,6 +51,7 @@ RISC_V_Single_Cycle/
 │   ├── mux.v
 │   ├── mux4to1.v
 │   ├── processor.v
+│   ├── program.mem
 │   └── register_file.v
 │
 ├── simulation/
